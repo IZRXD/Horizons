@@ -25,4 +25,4 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       - name: Run Unit Tests
-        run: dotnet test Horizons.Tests.Unit\Horizons.Tests.Unit.csproj --nobuild
+        run: dotnet test Horizons.Tests.Unit/Horizons.Tests.Unit.csproj --nobuild
